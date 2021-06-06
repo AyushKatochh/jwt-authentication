@@ -1,0 +1,13 @@
+// File to use rest api
+
+GET http://localhost:3000/posts
+Authorization: Bearer 62ac0a3f2053ebacc3099a974e7ba2edb88d9a0dade5997ad9f02ebc9e1beabae7aa5feaddb4a5173604fd12c6d4cdea6926c01a0a634856ac4152b8dbca104d
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "usename": "Ayush"
+}
